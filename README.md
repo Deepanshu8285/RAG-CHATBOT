@@ -4,7 +4,7 @@ A full-stack Retrieval-Augmented Generation (RAG) chatbot that lets users upload
 
 Built as a hands-on project to learn the full RAG pipeline: document parsing, embeddings, vector search, prompt engineering, and multimodal (vision) retrieval — combined with a real authentication system and a polished chat UI.
 
-🔗 **[Try the live app](https://deepanshu-rag-chatbot.streamlit.app)**
+App link: https://deepanshu-rag-chatbot.streamlit.app
 
 ---
 
