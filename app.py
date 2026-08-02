@@ -291,6 +291,17 @@ def main():
         page_title="Chat with Multiple PDFs",
         page_icon="📚"
     )
+    if not os.path.exists('config.yaml'):
+        default_config = {
+            'credentials': {'usernames': {}},
+            'cookie': {
+                'name': 'rag_chatbot_auth',
+                'key': secrets.token_hex(32),
+                'expiry_days': 7
+            }
+        }
+        with open('config.yaml', 'w') as file:
+            yaml.dump(default_config, file, default_flow_style=False)
 
     with open('config.yaml') as file:
         config = yaml.load(file, Loader=SafeLoader)
