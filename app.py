@@ -14,6 +14,7 @@ import os
 import streamlit_authenticator as stauth
 import yaml
 from yaml.loader import SafeLoader
+import secrets
 
 
 USER_AVATAR = "https://api.dicebear.com/7.x/personas/svg?seed=You"
