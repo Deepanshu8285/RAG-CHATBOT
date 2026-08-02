@@ -1,0 +1,6 @@
+credentials:
+  usernames: {}
+cookie:
+  name: rag_chatbot_auth
+  key: 64d159aeb93e877dca8df50c0c1d1883a9594c7d879b92c1396562adf092658d
+  expiry_days: 7
